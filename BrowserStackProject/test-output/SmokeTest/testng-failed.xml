@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeTest]">
+  <parameter name="devicename" value="galaxy s8"/>
+  <parameter name="osname" value="android"/>
+  <test name="Scenario 1">
+    <classes>
+      <class name="com.browserstack.testcase.BrowserstackTestCase"/>
+    </classes>
+  </test> <!-- Scenario 1 -->
+</suite> <!-- Failed suite [SmokeTest] -->

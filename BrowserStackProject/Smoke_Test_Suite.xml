@@ -1,0 +1,18 @@
+<suite name="SmokeTest">
+	<!-- <listeners> <listener class-name="org.uncommons.reportng.HTMLReporter"/> 
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> </listeners> -->
+
+	<parameter name="osname" value="ios" />
+	<parameter name="devicename" value="iphone 6" />
+	<test name="Scenario 1" preserve-order="true">
+		<classes>
+			<class name="com.browserstack.testcase.BrowserstackTestCase">
+
+			</class>
+		</classes>
+	</test>
+
+	
+	
+
+</suite>
